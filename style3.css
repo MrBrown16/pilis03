@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+
+    font-size: 16px;
+    
+}
+body{
+    background: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 40px;
+
+}
+#container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white
+
+}
+header{
+    background: url(./img/logo3.jpg);
+    margin: 0 auto;
+    background-color: white;
+    height: 170px;
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 0 0 182px;
+    font-size: 1.7em;
+}
+#sidebar{
+    width: 200px;
+    float: right;
+
+}
+#sidebar ul li{
+    list-style-type: none;
+    padding: 10px 0 0 0;
+}
+.menu{
+    width: auto;
+    height: 175px;
+    margin: 25px 0px 10px 0;
+}
+.menu h3{
+    background-color: #cccccc;
+    font-size: 1em;
+    text-align: center;
+    height: 17px;
+}
+.menu ul{
+    width: auto;
+    font-size: 1em;
+    color: #936f39;
+}
+.menu ul li{
+    text-align: center;
+}
+.menupont{
+    display: inline-block;
+}
+#content{
+    width: 72%;
+    float: left;
+    padding-left: 10px;
+
+}
+#content .news{
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+    
+    text-align: justify;
+}
+#content .news p{
+    font-size: .9em;
+    color: #936f39;
+}
+#content .news img{
+    float: left;
+    padding: 0 20px 0 0;
+}
+#content .news h2{
+    background-color: #996600;
+    color: white;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 49.9999%;
+}
+footer{
+   background-color: #db9d66;
+   color: white;
+   text-align: center;
+   font-size: .8em;
+   height: 50px;
+}

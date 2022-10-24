@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    
+}
+body{
+    background: url(./img/bg.png) repeat-x #629D66;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 0 10px 0;
+
+}
+#container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white
+
+}
+header{
+    background: url(./img/logo1.jpg);
+    margin: 0 auto;
+    background-color: white;
+    height: 240px;
+}
+header h1{
+    color: white;
+    text-transform: uppercase;
+    padding: 80px 0 0 400px;
+    font-size: 5em;
+}
+#sidebar{
+    width: 25%;
+    float: left;
+
+}
+#sidebar ul li{
+    list-style-type: none;
+}
+.menu{
+    background: url(./img/img02.gif) no-repeat right bottom #96a96f;
+    width: auto;
+    height: 175px;
+    margin: 25px 10px 10px 0;
+}
+.menu h3{
+    background-color: #203926;
+    color: white;
+    font-size: .8em;
+}
+.menu ul{
+    font-size: .8em;
+    margin: 0 10px 0 0;
+    color: #6a6f50;
+}
+.menupont{
+    display: inline-block;
+    padding: 15px 0 10px 10px;
+    
+}
+#content{
+    width: 74.9999%;
+    float: left;
+
+}
+#content .news{
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+    padding-right: 110px;
+    text-align: justify;
+}
+#content .news p{
+    font-size: .8em;
+    color: gray;
+}
+#content .news img{
+    float: left;
+    margin: 0 20px 10px 0;
+}
+#content .news h2{
+    margin: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 49.9999%;
+}
+footer{
+   background-color: #203926;
+   color: white;
+   text-align: center;
+   font-size: .7em;
+}
